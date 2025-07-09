@@ -5,8 +5,8 @@ export default function Header() {
   return (
     <header>
       <nav>
-        <Link to="/">Home</Link> | 
-        <Link to="/detalhes/123">Detalhes (exemplo)</Link>
+        <Link to="/">Home</Link> {' |'} 
+        <Link to="/detalhes/123">Detalhes</Link>
       </nav>
     </header>
   );

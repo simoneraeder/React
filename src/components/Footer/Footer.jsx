@@ -1,7 +1,9 @@
 export default function Footer() {
   return (
     <footer>
-      <p>Rodapé da aplicação</p>
+        <nav>
+      <p>2025, Meus Desejos - Todos os direitos reservados</p>
+      </nav>
     </footer>
   );
 }

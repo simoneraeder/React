@@ -1,6 +1,5 @@
 import { useNavigate } from "react-router";
 
-
 export default function Home() {
   const navigate = useNavigate();
 
@@ -9,10 +8,13 @@ export default function Home() {
     navigate(`/detalhes/${id}`);
   };
 
+   
   return (
     <div>
       <h1>Home</h1>
-      <button onClick={irParaDetalhes}>Ir para Detalhes</button>
+      <button onClick={()=> navigate("/detalhes/123")}>Ir para Detalhes</button>
     </div>
   );
+
+  
 }

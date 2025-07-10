@@ -1,7 +1,11 @@
 .home {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 2rem;
   text-align: center;
   color: black;
-   
+  
 }
 
 .title {

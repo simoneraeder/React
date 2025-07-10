@@ -1,13 +1,15 @@
 .container {
   display: flex;
   flex-direction: column;
-  min-height: 200vh;
-    background: pink;
- 
+  min-height: 100vh;
+  
 }
 
 .content {
   flex: 1;
   padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(199, 164, 233);
 }
-

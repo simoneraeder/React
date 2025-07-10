@@ -1,24 +1,28 @@
 .header {
-background: url(https://tse3.mm.bing.net/th/id/OIP.CEXI4shf63Pyj7G9Z004JQHaH3?rs=1&pid=ImgDetMain&o=7&rm=3);
-  color: rgb(214, 35, 151);
-  text-align: center;
-  padding: 1rem;
-  bottom: auto;
-  position: fixed;
+background: url(https://static.vecteezy.com/ti/vetor-gratis/p3/3184602-luz-roxo-rosa-doodle-fundo-com-flores-vetor.jpg);
+ color: rgb(214, 35, 151);
+ padding: 1rem;
+ display: flex;
+ justify-content: space-around;
+  bottom: auto; 
   justify-content: space-around;
   align-items: center;
-    border-top: 1px solid rgba(180, 17, 180, 0.8);
-    width: 100%;
+  
 }
 
 .link {
   color:  rgb(214, 35, 151);
+
   text-decoration: none;
   font-weight: bold;
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .link:hover {
-    color: rgb(32, 178, 203);
+    color: blueviolet;
   text-decoration: double;
+
 }
 

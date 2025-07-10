@@ -5,7 +5,7 @@ export default function Detalhes() {
   const { id } = useParams();
   const navigate = useNavigate();
   const VoltarparaHome = () => {
-    const id = 123; // pode ser qualquer valor dinâmico
+    const id = 123; 
     navigate(`/Home/${id}`);
       }
 
@@ -14,7 +14,7 @@ export default function Detalhes() {
       <h1>Detalhes</h1>
       
       <p>ID recebido: <span className={styles.id} >{id}</span></p>
-      <button onClick={()=> navigate("/")}className={styles.backButton}>Voltar para Home</button>
+      <button onClick={()=> navigate("/")}className={styles.backButton}>  Voltar </button>
     </div>
   );
 

@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <div className={styles.home} >
       <h1 className={styles.title} >Home</h1>
-      <button onClick={()=> navigate("/detalhes/123")} className={styles.button} >Ir para Detalhes</button>
+      <button onClick={()=> navigate("/detalhes/123")} className={styles.button} > Detalhes</button>
     </div>
   );
 

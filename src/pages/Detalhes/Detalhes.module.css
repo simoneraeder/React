@@ -13,10 +13,11 @@
 }
 
 .backButton {
-  margin-top: 2rem;
+  margin-top: 1rem;
   background-color: blueviolet;
   color: white;
   padding: 0.5rem 1rem;
+  width: 150px; 
   border: none;
   cursor: pointer;
 }

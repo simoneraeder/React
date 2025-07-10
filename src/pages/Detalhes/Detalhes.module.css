@@ -1,0 +1,23 @@
+.detalhes {
+  padding: 2rem;
+  text-align: center;
+  color: black;
+}
+
+.id {
+  font-size: 1.5rem;
+  color: black;
+}
+
+.backButton {
+  margin-top: 2rem;
+  background-color: rgb(216, 23, 146);
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  cursor: pointer;
+}
+
+.backButton:hover {
+  background-color: blueviolet;
+}

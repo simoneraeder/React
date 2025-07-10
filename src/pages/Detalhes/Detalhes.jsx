@@ -1,5 +1,5 @@
 import { useNavigate, useParams } from "react-router";
-
+import styles from "./Detalhes.module.css";
 
 export default function Detalhes() {
   const { id } = useParams();
@@ -10,10 +10,11 @@ export default function Detalhes() {
       }
 
    return (
-    <div>
+    <div className={styles.detalhes} >
       <h1>Detalhes</h1>
-      <p>ID recebido: {id}</p>
-      <button onClick={()=> navigate("/")}>Voltar para Home</button>
+      
+      <p>ID recebido: <span className={styles.id} >{id}</span></p>
+      <button onClick={()=> navigate("/")}className={styles.backButton}>Voltar para Home</button>
     </div>
   );
 

@@ -1,0 +1,24 @@
+.header {
+background: url(https://tse3.mm.bing.net/th/id/OIP.CEXI4shf63Pyj7G9Z004JQHaH3?rs=1&pid=ImgDetMain&o=7&rm=3);
+  color: rgb(214, 35, 151);
+  text-align: center;
+  padding: 1rem;
+  bottom: auto;
+  position: fixed;
+  justify-content: space-around;
+  align-items: center;
+    border-top: 1px solid rgba(180, 17, 180, 0.8);
+    width: 100%;
+}
+
+.link {
+  color:  rgb(214, 35, 151);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.link:hover {
+    color: rgb(32, 178, 203);
+  text-decoration: double;
+}
+

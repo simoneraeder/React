@@ -1,0 +1,22 @@
+.home {
+  text-align: center;
+  color: black;
+   
+}
+
+.title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.button {
+  background-color: rgb(216, 23, 146);
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: blueviolet;
+}

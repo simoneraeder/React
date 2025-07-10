@@ -1,6 +1,6 @@
 .header {
 background: url(https://static.vecteezy.com/ti/vetor-gratis/p3/3184602-luz-roxo-rosa-doodle-fundo-com-flores-vetor.jpg);
- color: rgb(214, 35, 151);
+ color: blueviolet;
  padding: 1rem;
  display: flex;
  justify-content: space-around;
@@ -11,7 +11,7 @@ background: url(https://static.vecteezy.com/ti/vetor-gratis/p3/3184602-luz-roxo-
 }
 
 .link {
-  color:  rgb(214, 35, 151);
+  color:  blueviolet;
 
   text-decoration: none;
   font-weight: bold;
@@ -21,7 +21,7 @@ background: url(https://static.vecteezy.com/ti/vetor-gratis/p3/3184602-luz-roxo-
 }
 
 .link:hover {
-    color: blueviolet;
+    color: rgb(216, 23, 146);
   text-decoration: double;
 
 }

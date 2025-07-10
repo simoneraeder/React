@@ -17,9 +17,15 @@
   background-color: blueviolet;
   color: white;
   padding: 0.5rem 1rem;
-  width: 150px; 
+  width: 100px; 
   border: none;
   cursor: pointer;
+  width: 100px;
+ position: fixed;
+ bottom: 60px;
+ display: flex;
+ justify-content: center;
+ gap: 1rem;
 }
 
 .backButton:hover {

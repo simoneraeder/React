@@ -21,7 +21,14 @@
   padding: 0.5rem 1rem;
   cursor: pointer;
   width: 100px;
-  
+ position: fixed;
+ bottom: 60px;
+ display: flex;
+ justify-content: center;
+ gap: 1rem;
+
+
+
 }
 
 .button:hover {

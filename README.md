@@ -1,12 +1,27 @@
-# React + Vite
+⚛️ Projeto React com Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este repositório contém um projeto desenvolvido como **trabalho prático do curso** de programação com React, utilizando o Vite como ferramenta de build.
 
-Currently, two official plugins are available:
+## 📚 Objetivo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+O projeto foi desenvolvido com o intuito de colocar em prática os conhecimentos adquiridos em aula sobre React, organização de componentes, e configuração de um ambiente moderno com Vite.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Tecnologias Utilizadas
+
+- [React](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- [ESLint](https://eslint.org/)
+- [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+
+> Observação: o projeto pode ser facilmente adaptado para usar SWC ou TypeScript.
+
+---
+
+## 🛠️ Como rodar o projeto localmente
+
+1. **Clone o repositório:**
+
+```bash
+git clone https://github.com/simoneraeder/React.git
